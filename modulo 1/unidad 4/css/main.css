@@ -1,0 +1,39 @@
+/*index*/
+html{
+    background-color: rgb(216, 234, 250);;
+}
+h1{
+    text-align: center;
+}
+#cv{
+    width: 500px;
+    height: 1010px;
+    margin: 0 auto;
+    background-color: rgb(162, 195, 224);
+    padding: 50px;
+    border-radius: 10px;
+    font-family: cursive;
+}
+
+/*formulario*/
+#formulario{
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(162, 195, 224);
+    padding: 50px;
+    border-radius: 10px;
+}
+
+#boton{
+    width: 150px;
+    height: 30px;
+    margin: 20px auto;
+    font-family: cursive;
+}
+
+#campos label{
+    font-family: cursive;
+    font-size: medium;
+}
