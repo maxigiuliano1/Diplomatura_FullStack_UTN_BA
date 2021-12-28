@@ -6,3 +6,4 @@
 * Unidad 4: Introduccion a CSS
 ## Modulo 2: CSS y maquetado avanzado
 * Unidad 1: CSS (Parte 1)
+* Unidad 2: CSS (Parte 2)
