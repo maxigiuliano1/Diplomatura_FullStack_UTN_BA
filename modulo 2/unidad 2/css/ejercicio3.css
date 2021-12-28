@@ -1,0 +1,35 @@
+#cuadro1{
+    display: inline-flex;   
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    color: white;
+}
+
+#cuadro2{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    background-color: gray;
+    color: black;
+}
+
+#cuadro3{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    color: white;
+}
+
+#contenedor{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(219, 219, 211);
+}
