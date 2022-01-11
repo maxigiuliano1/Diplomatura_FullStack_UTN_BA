@@ -1,3 +1,11 @@
+body{
+    background-image: linear-gradient(to right, #232526 0%, #434343 50%);
+}
+
+h2{
+    color: white;
+}
+
 .btn-grad {
     margin: 10px;
     padding: 5px 45px;
@@ -10,7 +18,7 @@
 }
 
 .btn-grad:hover {
-    background-position: right center; /* change the direction of the change here */
+    background-position: right center;
     color: #35393a;
     text-decoration: none;
 }
@@ -19,18 +27,28 @@
     background-color: #232526;
 }
 
+.mb-3, .my-3{
+    margin-bottom: -1rem !important;
+    padding-bottom: 20px;
+}
+
 .icon{
     font-size: x-large;
     color: white;
     transition: 0.5s;
+    margin-left: 50px;
 }
 
 .icon:hover{
     color: #35393a;
 }
 
-body{
-    background-image: linear-gradient(to right, #232526 0%, #434343 50%);
+.card-deck {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin-right: 0px;
+    margin-left: 0px;
 }
-
          
