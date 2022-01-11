@@ -1,0 +1,36 @@
+.btn-grad {
+    margin: 10px;
+    padding: 5px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 100% auto;
+    color: white;            
+    border-radius: 5px;
+}
+
+.btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #35393a;
+    text-decoration: none;
+}
+
+.navbar{
+    background-color: #232526;
+}
+
+.icon{
+    font-size: x-large;
+    color: white;
+    transition: 0.5s;
+}
+
+.icon:hover{
+    color: #35393a;
+}
+
+body{
+    background-image: linear-gradient(to right, #232526 0%, #434343 50%);
+}
+
+         
