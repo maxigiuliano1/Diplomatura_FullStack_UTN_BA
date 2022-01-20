@@ -13,6 +13,8 @@ toggleButton.addEventListener('click',() => {
 toggleButtonContact.addEventListener('click',() => {
   toggleButton.classList.toggle('close')
   navWrapper.classList.toggle('show')
+  $("#nav").removeClass("flex-column justify-content-start")
+    $("#nav").addClass("justify-content-end")
 })
 
 toggleButtonHome.addEventListener('click',() => {
