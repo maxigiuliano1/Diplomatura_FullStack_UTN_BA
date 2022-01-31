@@ -9,3 +9,5 @@
 * Unidad 2: CSS (Parte 2)
 * Unidad 3: CSS (Parte 3)
 * Unidad 4: CSS (Parte 4)
+## Modulo 3: Javascript y maquetado avanzado
+* Unidad 3: Javascript (parte 1)
