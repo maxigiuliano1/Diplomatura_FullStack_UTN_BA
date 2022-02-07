@@ -1,0 +1,20 @@
+.contenedor{
+    display:flex;
+    justify-content: center;
+}
+
+.cuadro{
+    width: 250px;
+    height: 250px;
+    margin-left: 5px;
+}
+
+.cuadro1{
+    background-color: black;
+}
+.cuadro2{
+    background-color: brown;
+}
+.cuadro3{
+    background-color: cornflowerblue;
+}
