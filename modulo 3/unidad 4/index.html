@@ -8,11 +8,89 @@
     <script src="js/main.js" type="text/javascript"></script>
     <title>JavaScrip (parte 2)</title>
 </head>
-<body>
+
+<!--
+
+Ejercicio 2: 
+
+Programar un contador de caracteres para un textarea.
+
+
+Ejercicio 3:
+
+Dado el siguiente array de alumnos utilizar los métodos de array vistos para generar un array con los alumnos aprobados. Se considera aprobado todo alumno que tenga una nota mayor o igual a 7.
+
+
+var alumnos = [
+
+  {
+
+    nombre: 'Juan Gomez',
+
+    nota: 7
+
+  }, {
+
+    nombre: 'Pedro Rodriguez',
+
+    nota: 4
+
+  }, {
+
+    nombre: 'Roxana García',
+
+    nota: 8
+
+  }, {
+
+    nombre: 'Luciano Lopez',
+
+    nota: 5
+
+  }, {
+
+    nombre: 'Fernanda Gimenez',
+
+    nota: 6
+
+  }, {
+
+    nombre: 'Florencia Martinez',
+
+    nota: 10
+
+  }, {
+
+    nombre: 'Raul Sanchez',
+
+    nota: 7
+
+  }, {
+
+    nombre: 'Sandra Figueroa',
+
+    nota: 8
+
+  }
+
+];
+
+-->
+<body id="body">
+    <h2>Cambiar Fondo</h2>
     <div class="contenedor">
-        <div class="cuadro cuadro1"></div>
-        <div class="cuadro cuadro2"></div>
-        <div class="cuadro cuadro3"></div>
+        <div class="cuadro negro" onclick="cambiarFondo('black')"></div>
+        <div class="cuadro marron" onclick="cambiarFondo('brown')"></div>
+        <div class="cuadro celeste" onclick="cambiarFondo('cornflowerblue')"></div>
+    </div>
+    <br>
+    <div class="contenedor">
+        <button onclick="cambiarFondo('white')">Resetear</button>
+    </div>
+    <hr>
+    <h2>Contador de caracteres</h2>
+    <div class="contenedor">
+        <textarea cols="50" rows="10"></textarea>
     </div>
 </body>
 </html>
