@@ -10,73 +10,15 @@
 </head>
 
 <!--
-
-Ejercicio 2: 
-
-Programar un contador de caracteres para un textarea.
-
-
 Ejercicio 3:
 
 Dado el siguiente array de alumnos utilizar los métodos de array vistos para generar un array con los alumnos aprobados. Se considera aprobado todo alumno que tenga una nota mayor o igual a 7.
 
 
-var alumnos = [
 
-  {
-
-    nombre: 'Juan Gomez',
-
-    nota: 7
-
-  }, {
-
-    nombre: 'Pedro Rodriguez',
-
-    nota: 4
-
-  }, {
-
-    nombre: 'Roxana García',
-
-    nota: 8
-
-  }, {
-
-    nombre: 'Luciano Lopez',
-
-    nota: 5
-
-  }, {
-
-    nombre: 'Fernanda Gimenez',
-
-    nota: 6
-
-  }, {
-
-    nombre: 'Florencia Martinez',
-
-    nota: 10
-
-  }, {
-
-    nombre: 'Raul Sanchez',
-
-    nota: 7
-
-  }, {
-
-    nombre: 'Sandra Figueroa',
-
-    nota: 8
-
-  }
-
-];
 
 -->
-<body id="body">
+<body id="body" onload="principal();">
     <h2>Cambiar Fondo</h2>
     <div class="contenedor">
         <div class="cuadro negro" onclick="cambiarFondo('black')"></div>
@@ -90,7 +32,13 @@ var alumnos = [
     <hr>
     <h2>Contador de caracteres</h2>
     <div class="contenedor">
-        <textarea cols="50" rows="10"></textarea>
+        <textarea id="texto" cols="50" rows="10"></textarea>
     </div>
+    <div class="contenedor">
+        Caracteres: <span id="contador"></span>
+    </div>
+    <hr>
+    <h2>Alumnos Aprobados</h2>
+    <span id="aprobados"></span>
 </body>
 </html>
